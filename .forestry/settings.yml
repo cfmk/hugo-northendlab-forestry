@@ -12,7 +12,6 @@ sections:
 - type: document
   path: content/Anfahrt
   label: Anfahrt
-  match: "**/*"
 - type: directory
   path: content/Kontakt
   label: Kontakt
@@ -21,8 +20,6 @@ sections:
 - type: document
   path: content/Termin
   label: Termin
-  match: "**/*"
-  read_only: false
 - type: directory
   path: content
   label: Post
