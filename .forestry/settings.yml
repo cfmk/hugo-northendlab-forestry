@@ -5,6 +5,25 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/Medizin_Leistungen
+  label: Leistungen
+  create: all
+  match: "**/*"
+- type: document
+  path: content/Anfahrt
+  label: Anfahrt
+  match: "**/*"
+- type: directory
+  path: content/Kontakt
+  label: Kontakt
+  create: documents
+  match: "**/*"
+- type: document
+  path: content/Termin
+  label: Termin
+  match: "**/*"
+  read_only: false
+- type: directory
   path: content
   label: Post
   create: documents
